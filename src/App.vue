@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">OMDB</router-link> |
+      <router-link to="/json">{JSON} Placeholder</router-link> | 
+      <router-link to="/jsonPost">{JSON} Post request</router-link>
     </div>
     <router-view/>
   </div>
@@ -21,6 +22,7 @@
   padding: 30px;
 
   a {
+    font-size: 20px;
     font-weight: bold;
     color: #2c3e50;
 
